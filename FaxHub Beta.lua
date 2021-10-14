@@ -18,6 +18,11 @@ end)
 
 local Tab = Window:NewTab("Player")
 local PlayerSection = Tab:NewSection("Player")  
-
+PlayerSection:NewSlider("WalkSpeed", "Changes walkspeed based on the location of the slider", 500, 16, function(v)  
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
+PlayerSection:NewSlider("JumpPower", "Changes Power based on the location of the slider", 1000, 50, function(v)  
+  game.Players.LocalPlayer.Character.Humanoid.Jumpower = v
+end)
+
 
