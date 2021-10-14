@@ -8,7 +8,8 @@ local Tab = Window:NewTab("Main")
 local MainSection = Tab:NewSection("Main")
 MainSection:NewLabel("Ui Toggle")  
 end)
-MainSection:NewKeybind("Toggle GUI With F", "Toggles the GUI when F is pressed", Enum.KeyCode.F, function()	Library:ToggleUI()
+MainSection:NewKeybind("Toggle GUI With F", "Toggles the GUI when F is pressed", Enum.KeyCode.F, function()	
+    Library:ToggleUI()
 end)
   
 
@@ -25,4 +26,17 @@ PlayerSection:NewSlider("JumpPower", "Changes Power based on the location of the
   game.Players.LocalPlayer.Character.Humanoid.Jumpower = v
 end)
 
+getgenv().Toggled = false
+
+local toggle = PlayerSection:NewToggle("Customizing Tab", "Customize Tab", (state)
+    getgenv().Toggled = state
+end)
+
+game:GetService("RunService").RenderStepped:Connect(function()
+	if getgenv().Toggled then
+		
+	else
+		
+	end
+end)
 
