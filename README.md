@@ -1,4 +1,4 @@
-# Faxhub
+# FaxHub
 
 
 FaxHub is a roblox script hub. 
