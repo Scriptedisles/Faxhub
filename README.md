@@ -26,7 +26,9 @@ Link: https://www.roblox.com/games/1927139201/Day-of-Dusk-The-Border-Beta
 
 # Next Update
 -Depreciating support for garbage ass squid game
+----------------------------------------------------
 -Adding Pet Sim X Support.
+----------------------------------------------------
 
 
 # Future Game Support 
