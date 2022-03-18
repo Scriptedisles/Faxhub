@@ -32,7 +32,6 @@ Link: https://www.roblox.com/games/1927139201/Day-of-Dusk-The-Border-Beta
 
 
 # Future Game Support 
-JailBreak
 --------
 Arsenal
 -------
