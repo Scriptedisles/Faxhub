@@ -10,7 +10,7 @@ Link for Kavo UI LIB: https://xheptcofficial.gitbook.io
 
 
 # Discord Link: 
-https://discord.gg/DkQvDg5sgZ
+Being Reworked at this time.
 
 # Current Scripters
 CxldBreeze#7294
